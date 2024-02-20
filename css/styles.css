@@ -734,7 +734,7 @@ color:  rgba(46, 47, 66, 0.4);
     margin-bottom: 24px;
 }
 
-input:checked+.check-icon{
+.input-check:checked+.check-icon{
     background-color: #404bbf;;
     fill:#F4F4FD;
     border:none;
