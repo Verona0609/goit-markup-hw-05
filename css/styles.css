@@ -734,7 +734,7 @@ color:  rgba(46, 47, 66, 0.4);
     margin-bottom: 24px;
 }
 
-.input-check:checked+.checkbox-icon{
+input:checked+.check-icon{
     background-color: #404bbf;;
     fill:#F4F4FD;
     border:none;
@@ -788,7 +788,7 @@ fill: transparent;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-width: 169px;
+min-width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5  ;
