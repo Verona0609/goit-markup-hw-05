@@ -559,9 +559,10 @@ margin-bottom: 16px;
     margin-bottom: 16px;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,5%;
+line-height: 1.5%;
 letter-spacing: 0.02em;
 color: #ffffff;
+
 }
 .footer-input{
     width: 264px;
@@ -588,7 +589,7 @@ color: #ffffff;
     font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #ffffff;
@@ -657,7 +658,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     max-width: 360;
     margin-bottom: 16px;
 font-size: 16px;
-line-height: 1,5%;
+line-height: 1.5%;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42
@@ -733,7 +734,7 @@ color:  rgba(46, 47, 66, 0.4);
     margin-bottom: 24px;
 }
 
-.checkbox-icon:checked{
+.input-check:checked+span{
     background-color: #404bbf;;
     fill:#F4F4FD;
     border:none;
@@ -748,8 +749,8 @@ color: #8e8f99;
 
 }
 .checkbox-icon{
-    width:"16" ;
-    height:"16";
+    width:16px;
+    height:16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
