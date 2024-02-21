@@ -734,10 +734,10 @@ color:  rgba(46, 47, 66, 0.4);
     margin-bottom: 24px;
 }
 
-.input-check:checked+.check-text .check-icon{
-    background-color: #404bbf;;
+.input-check:checked+ .check-text .check-icon{
+    background-color:#404bbf;
+    border: none;
     fill:#F4F4FD;
-    border:none;
 }
 .check-text{
 font-size: 12px;
